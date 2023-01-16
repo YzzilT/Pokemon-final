@@ -41,6 +41,10 @@ public abstract class Pokemon {
         return sound;
     }
 
+    public void setHp(int hp){
+        this.hp = hp;
+    }
+
     public abstract List<String> getAttacks();
 
 
